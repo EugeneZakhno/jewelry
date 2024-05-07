@@ -26,6 +26,8 @@
    <link href="css/colors.css" rel="stylesheet">
    <!-- light box gallery -->
    <link href="css/ekko-lightbox.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/main.css">
+   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
    <!--[if lt IE 9]>
    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -117,7 +119,9 @@
             <div class="row">
                <div id="main_slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
                   <div class="carousel-inner">
-                     <div class="carousel-item slider_inner slider1 active">
+                     <div class="carousel-item slider_inner active">
+                        <model-viewer src="earrings_amethyst_and_white_topaz.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="399.4deg 44.73deg 11.44m" field-of-view="26.26deg">
+                        </model-viewer>
                         <div class="container">
                            <div class="row">
                               <div class="slider_coint_inner">
@@ -129,7 +133,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="carousel-item slider_inner slider2">
+                     <div class="carousel-item slider_inner">
                         <div class="container">
                            <div class="row">
                               <div class="slider_coint_inner">
